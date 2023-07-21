@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+.principal{
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+.principal-dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem 0;
+}
+.label-a{
+    font-size: .8rem;
+    font-weight: 400;
+
+}
+#pçstotal-label{
+    margin: 0 1.3rem;
+}
+
+.input-numbers{
+    width: 100px;
+    padding: .6rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.pçs-calculo{
+    padding: .5rem .4rem;
+}
+
+.resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divs-result{
+    padding: .3rem;
+    font-size: 1.5rem;
+}
+.fa{
+    cursor: pointer;
+}
+.copy-content{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.input-folha{
+    width: 50px;
+}
+
+.label-b{
+    margin: 0 1rem;
+}
+.title-opcoes{
+    text-align: center;
+    font-weight: 500;
+    background-color: #d5d3d3;
+}
+.radio-opcoes{
+    padding: .5rem 0 0 0;
+}

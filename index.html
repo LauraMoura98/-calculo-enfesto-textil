@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/style.css">
+    <link rel="stylesheet" type="text/css" href="./src/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculadora de Enfesto</title>
+</head>
+<body>
+    <section class="principal">
+        <div class="principal-dados">
+    <label class="label-a" id="pçsfolha-label">Peças por folha:<br><br><input class="input-numbers" type="number"  id="pçsfolha" name="pçsfolha" required></label>
+    <label class="label-a" id="pçstotal-label">Total da Produção:<br><br><input class="input-numbers" type="number" id="pçstotal" name="pçstotal" required></label>
+    <label class="label-a" id="mapa-label">Mapa (Em Mts):<br><br><input class="input-numbers" type="text" id="mapa-mts" name="pçstotal" required></label>
+</div>
+<div class="opcoes">
+    <p class="title-opcoes">Folhas por Enfesto: </p>
+    <div class="radio-opcoes">
+    <input onclick="desmarcaInput()" class="folhas-enfesto-10" type="radio" name="folhas-enfesto" value="5"/>5 folhas
+    <input onclick="desmarcaIput()"class="folhas-enfesto-20" type="radio" name="folhas-enfesto" value="10"/>10 folhas
+    <label class="label-b" id="pçsfolha-label">Outro: <input onclick="desmarcaRadio()" class="input-folha" type="number"  id="pçsfolha" name="pçsfolha" required></label>
+</div>
+</div>
+<button class="pçs-calculo" onclick="mostraResultado()">Calcular</button>
+</section>
+<section class="resultados">
+<div class="result-1 divs-result"></div>
+<div class="result-2 divs-result"></div>
+</section>
+<footer class="copy-content"><i class="fa fa-copy"> Copiar</i></footer>
+</body>
+<script src="./src/script.js"></script>
+</html>
+
