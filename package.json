@@ -10,6 +10,6 @@
   "author": "Laura Moura Silva",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^25.2.0"
+    "electron": "^25.8.1"
   }
 }
